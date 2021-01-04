@@ -7,10 +7,10 @@ import './App.css';
 function App() {
 
   const { ref, getAnimation: cycleAnimate } = useWebAnimations({
-    keyframes: {
-      transform: "translateX(160)",
-      transform: "translateX(320px)",
-    },
+    keyframes: [
+      {transform: "translateX(160)"},
+      {transform: "translateX(320px)"},
+    ],
     timing: {
       duration: 2000,
       iterations: Infinity,
@@ -20,10 +20,10 @@ function App() {
   });
 
   const { ref: cloud1 } = useWebAnimations({
-    keyframes: {
-      transform: "translateX(1500px)",
-      transform: "translateX(-1500px)",
-    },
+    keyframes: [
+      {transform: "translateX(1500px)"},
+      {transform: "translateX(-1500px)"},
+    ],
     timing: {
       duration: 1500,
       iterations: Infinity,
@@ -33,10 +33,10 @@ function App() {
   });
 
   const { ref: cloud2 } = useWebAnimations({
-    keyframes: {
-      transform: "translateX(1500px)",
-      transform: "translateX(-1500px)",
-    },
+    keyframes: [
+      {transform: "translateX(1500px)"},
+      {transform: "translateX(-1500px)"},
+    ],
     timing: {
       duration: 1500,
       iterations: Infinity,
