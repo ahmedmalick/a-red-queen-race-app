@@ -25,7 +25,7 @@ function App() {
       {transform: "translateX(-1500px)"},
     ],
     timing: {
-      duration: 4000,
+      duration: 6000,
       iterations: Infinity,
       // direction: "alternate",
       // easing: "ease-in-out",
@@ -38,7 +38,7 @@ function App() {
       {transform: "translateX(-1500px)"},
     ],
     timing: {
-      duration: 4000,
+      duration: 6000,
       iterations: Infinity,
     },
   });
