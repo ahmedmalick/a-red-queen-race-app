@@ -43,8 +43,6 @@ function App() {
     },
   });
 
-  const { keyframes, timing } = pulse;
-
   const speedUp = () => {
    const cycleSpeed = cycleAnimate();
    const cloud1Speed = cloud1Animate();
