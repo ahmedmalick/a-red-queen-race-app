@@ -1,5 +1,5 @@
 import React from 'react';
-import useWebAnimations, { pulse } from "@wellyshen/use-web-animations";
+import useWebAnimations from "@wellyshen/use-web-animations";
 import cloud from  './images/cloud.png';
 import cycle from  './images/cycle.gif';
 import './App.css';
